@@ -1,4 +1,4 @@
 Contact
 ==============================================
 
-Any questions about this site can be emailed to [Mikael Roos](https://mikaelroos.se) on (mos@dbwebb.se).
+Want to get in contact? [Message me in the gitter chatt!](https://gitter.im/dbwebb-se/design)
