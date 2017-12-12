@@ -38,6 +38,18 @@ return [
                 "url"   => $this->di->get("url")->create("grid"),
                 "title" => t("grid")
             ],
+
+            "analysis" => [
+                "text"  => t("analysis"),
+                "url"   => $this->di->get("url")->create("analysis"),
+                "title" => t("analysis")
+            ],
+
+            "theme" => [
+                "text"  => t("theme"),
+                "url"   => $this->di->get("url")->create("theme"),
+                "title" => t("theme")
+            ],
         ],
     ],
 
@@ -78,6 +90,18 @@ return [
                 "text"  => t("grid"),
                 "url"   => $this->di->get("url")->create("grid"),
                 "title" => t("grid")
+            ],
+
+            "analysis" => [
+                "text"  => t("analysis"),
+                "url"   => $this->di->get("url")->create("analysis"),
+                "title" => t("analysis")
+            ],
+
+            "theme" => [
+                "text"  => t("theme"),
+                "url"   => $this->di->get("url")->create("theme"),
+                "title" => t("theme")
             ],
         ],
     ],
