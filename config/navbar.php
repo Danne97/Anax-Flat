@@ -50,6 +50,18 @@ return [
                 "url"   => $this->di->get("url")->create("theme"),
                 "title" => t("theme")
             ],
+
+            "blogg" => [
+                "text"  => t("blogg"),
+                "url"   => $this->di->get("url")->create("blogg"),
+                "title" => t("blogg")
+            ],
+
+            "images" => [
+                "text"  => t("images"),
+                "url"   => $this->di->get("url")->create("images"),
+                "title" => t("images")
+            ],
         ],
     ],
 
@@ -102,6 +114,18 @@ return [
                 "text"  => t("theme"),
                 "url"   => $this->di->get("url")->create("theme"),
                 "title" => t("theme")
+            ],
+
+            "blogg" => [
+                "text"  => t("blogg"),
+                "url"   => $this->di->get("url")->create("blogg"),
+                "title" => t("blogg")
+            ],
+
+            "images" => [
+                "text"  => t("images"),
+                "url"   => $this->di->get("url")->create("images"),
+                "title" => t("images")
             ],
         ],
     ],
