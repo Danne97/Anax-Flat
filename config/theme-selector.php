@@ -23,7 +23,7 @@ return [
             "title"      => "Your own selected default theme",
             "class"      => "",
             "stylesheets" => [
-                "css/typography.min.css"
+                "css/design-theme-one.min.css"
             ]
         ],
 
@@ -65,6 +65,38 @@ return [
             "title"      => "All fun, test and play, make it stand out!",
             "class"      => "fun",
             "stylesheets" => []
+        ],
+
+        "separator3" => "------------------------------------------------",
+
+        "design-theme-one"       => [
+            "title"      => "a design theme",
+            "class"      => "light",
+            "stylesheets" => ["css/design-theme-one.min.css"]
+        ],
+
+        "design-theme-two"       => [
+            "title"      => "a design theme",
+            "class"      => "light",
+            "stylesheets" => ["css/design-theme-two.min.css"]
+        ],
+
+        "design-theme-three"       => [
+            "title"      => "a design theme",
+            "class"      => "light",
+            "stylesheets" => ["css/design-theme-three.min.css"]
+        ],
+
+        "design-theme-four"       => [
+            "title"      => "a design theme",
+            "class"      => "light",
+            "stylesheets" => ["css/design-theme-four.min.css"]
+        ],
+
+        "design-theme-five"       => [
+            "title"      => "a design theme",
+            "class"      => "light",
+            "stylesheets" => ["css/design-theme-five.min.css"]
         ],
     ]
 ];
